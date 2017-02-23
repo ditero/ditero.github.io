@@ -53,13 +53,13 @@ html, body {
   box-sizing: border-box;
   width: 100%;
   margin: 20px center;
-  padding: 25px 0px;
+  padding: 20px 0px;
   text-align: center;
 
 }
 .product {
   display: inline-block;
-  margin: 0px 2% 80px 2%;
+  margin: 0px 2% 45px 2%;
   text-align: center;
   width: 45%;
 }
@@ -83,18 +83,19 @@ html, body {
   padding: 0px 50px;
 }
 .navigation {
-  background-color: rgba(255, 255, 255, 0.9);
-  overflow-y: auto;
-  position: fixed;
-  top: 0;
-  text-align: center;
-  width: 110%;
-  z-indexright;
+ background-color: rgba(255, 255, 255, 0.9);
+ overflow-y: auto;
+ position: fixed;
+ left: 0;
+ top: 0;
+ text-align: center;
+ width: 100%;
+ z-index: 10000;
 }
 .places {
-  margin: 60px auto;
-  padding: 10px 0px 0px 0px;
-  width: 100%;
+  margin: 50px auto;
+  padding: 20px 0px 0px 0px;
+  width: 90%;
   border-style: solid;
   border-top-width: 5px;
   border-color: #14213D;
@@ -163,6 +164,7 @@ hr {
   display: inline-block;
   height: 3000px;
   position:absolute;
+  float: left;
 
 }
 
