@@ -81,6 +81,7 @@ html, body {
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
   padding: 0px 50px;
+  text-align: center;
 }
 .navigation {
  background-color: rgba(255, 255, 255, 0.9);
