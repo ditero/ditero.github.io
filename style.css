@@ -10,10 +10,10 @@ html, body {
  table, th, td {
    height: 40%;
    left: 10%;
-   margin: 20px left;
+   margin: 20px right;
    overflow-y: scroll;
-   position: static;
-   width: 80%;
+   position: center;
+   width: 100%;
    font-size: 18px;
  }
 
@@ -44,6 +44,7 @@ html, body {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 10px;
+
 }
 .blue {
   color: #14213D !important;
@@ -144,40 +145,10 @@ h3 {
   text-align: center;
   text-transform: uppercase;
 }
-hr {
-  border: 0;
-  width: 80%;
-}
-.supporting {
-  padding-top: 80px;
-  padding-bottom: 100px;
-}
+img {
+  border: 2px;
+  width: 105%;
+  height: 340px;
+  border-radius: 2%;
 
-.supporting .col {
-  float: left;
-  width: 33%;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-}
-
-.supporting img {
-  display: inline-block;
-  height: 3000px;
-  position:absolute;
-  float: left;
-
-}
-
-.supporting h2 {
-  font-weight: 600;
-  font-size: 23px;
-  text-transform: uppercase;
-}
-
-.supporting p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 0 50px;
-  margin-bottom: 40px;
 }
