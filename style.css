@@ -3,6 +3,7 @@ html, body {
    background-color: #f4f7f8;
    margin: left;
    padding: 0;
+
  }
 
  /* Table */
@@ -82,6 +83,7 @@ html, body {
   font-size: 20px;
   padding: 0px 50px;
   text-align: center;
+
 }
 .navigation {
  background-color: rgba(255, 255, 255, 0.9);
@@ -102,6 +104,7 @@ html, body {
   border-color: #14213D;
   border: 2px solid #FFF;
   border-radius: 10px;
+  color: #14213D;
 }
 
 .header {
@@ -137,6 +140,7 @@ h1 {
   line-height: 60px;
   padding: 20px 10px;
   text-align: center;
+
 }
 h3 {
   color: #14213D;
@@ -150,5 +154,18 @@ img {
   width: 105%;
   height: 340px;
   border-radius: 2%;
+  border-color:#222222
+  -ms-interpolation-mode: bicubic;
+	border: 0;
+	vertical-align:bottom;
 
+
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
 }
